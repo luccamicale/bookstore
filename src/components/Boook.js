@@ -34,7 +34,7 @@ const Book = ({ title, author }) => (
                 <div className="current-chapter">
                   <span className="current">Current Chapter</span>
                   <span className="chapter">Chapter 17</span>
-                  <button className="btn-update" type="button">Update progress</button>
+                  <button className="btn-update" type="button">UPDATE PROGRESS</button>
                 </div>
               </div>
             </div>
