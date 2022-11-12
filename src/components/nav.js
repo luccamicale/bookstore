@@ -8,12 +8,12 @@ const NavBar = () => (
     <div>
       <ul className="ul-nav">
         <li className="link-item">
-          <NavLink to="/">
+          <NavLink className="item" to="/">
             Books
           </NavLink>
         </li>
         <li className="link-item">
-          <NavLink to="/categories">
+          <NavLink className="item" to="/categories">
             Categories
           </NavLink>
         </li>

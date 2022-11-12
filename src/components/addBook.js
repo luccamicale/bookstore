@@ -3,11 +3,11 @@ import '../modules-css/addbook.css';
 
 const AddBook = () => (
   <form className="form">
-    <h3>ADD NEW BOOK</h3>
+    <h3 className="add-title">ADD NEW BOOK</h3>
     <div className="inputs">
-      <input type="text" placeholder="Book Title" />
-      <input type="text" placeholder="Book Author" />
-      <input type="button" value="ADD BOOK" />
+      <input className="add-book" type="text" placeholder="Book Title" />
+      <input className="add-author" type="text" placeholder="Category" />
+      <input className="btn-add-book" type="button" value="ADD BOOK" />
     </div>
   </form>
 );
