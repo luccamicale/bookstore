@@ -104,3 +104,12 @@
 .main-ul {
   list-style-type: none;
 }
+
+.img-circle {
+  width: 50px;
+}
+
+.image {
+  margin-top: 50px;
+  margin-left: 70px;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../modules-css/boook.css';
+import recargar from '../img/recargar.png';
 
 const Book = ({ title, author }) => (
   <div className="book-container">
@@ -24,6 +25,7 @@ const Book = ({ title, author }) => (
                 </div>
               </div>
               <div className="progress-container">
+                <div className="image"><img className="img-circle" src={recargar} alt="img-circle" /></div>
                 <div className="graphic-progress">
                   <div className="circular-progress" />
                   <div className="progress-number">
