@@ -21,14 +21,14 @@
   /* background-color: crimson; */
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .current-chapter {
   /* background-color: darkgreen; */
   display: flex;
   flex-direction: column;
-  margin-left: 170px;
+  margin-left: 120px;
   width: 150px;
 }
 
@@ -111,5 +111,6 @@
 
 .image {
   margin-top: 50px;
-  margin-left: 70px;
+  margin-left: 150px;
+  /* background-color: aqua; */
 }
