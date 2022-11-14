@@ -9,7 +9,7 @@ const checkStatus = () => ({
 // create a reducer
 const initialStatus = (state = '', action) => {
   if (action.type === CHECK_STATUS) {
-    return 'In construction';
+    return 'Under construction';
   }
   return state;
 };
