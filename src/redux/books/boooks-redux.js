@@ -21,7 +21,8 @@ const initialState = (state = '', action) => {
   if (action.type === REMOVE_BOOK) {
     return action.payload;
   }
-  return state; //always is necessary to return the state
+  return state;
 };
+// always is necessary to return the state
 
 export default { addBook, removeBook, initialState };
