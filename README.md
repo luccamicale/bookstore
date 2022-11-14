@@ -2,7 +2,7 @@
 
 # BookStore
 
-> This is a project about Bookstore. In this section, I added the components
+> This is a project about Bookstore. Now I added the actions, reducers and store. 
 
 
 ## Built With
