@@ -16,10 +16,13 @@ const removeBook = () => ({
 // create a reducer
 const initialState = (state = '', action) => {
   if (action.type === ADD_BOOK) {
-    return action.payload;
+    return [
+      ...state,
+      action.payload,
+    ];
   }
   if (action.type === REMOVE_BOOK) {
-    return action.payload;
+    return state.filter((book) => book.id !== action.payload);
   }
   return state;
 };
