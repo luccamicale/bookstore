@@ -4,10 +4,10 @@ import Book from '../components/Boook';
 import AddBook from '../components/addBook';
 
 const Books = () => {
-  const books = useSelector((state) => state.books);
+  const books = useSelector((state) => state.book);
   return (
     <div className="main-container">
-      {books && books.map((book) => (
+      {books.map((book) => (
         <Book
           key={book.id}
           id={book.id}

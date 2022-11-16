@@ -35,8 +35,8 @@ const Book = (
                   <div className="graphic-progress">
                     <div className="circular-progress" />
                     <div className="progress-number">
-                      <span className="porcent">64%</span>
-                      <span className="status">{completed}</span>
+                      <span className="porcent">{completed}</span>
+                      <span className="status">Completed</span>
                     </div>
                   </div>
                   <div className="current-chapter">
