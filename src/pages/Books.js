@@ -7,10 +7,10 @@ const Books = () => {
   const books = useSelector((state) => state.books);
   return (
     <div className="main-container">
-      {books.map((book) => (
+      {books && books.map((book) => (
         <Book
-          key={books.id}
-          id={`${book.id}`}
+          key={book.id}
+          id={book.id}
           title={book.title}
           author={book.author}
           completed={book.completed}

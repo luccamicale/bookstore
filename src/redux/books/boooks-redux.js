@@ -44,20 +44,21 @@ export const removeBook = (payload) => (
 );
 
 export default function bookReducer(state = defaultState, action) {
-  if (action.type === ADD_BOOK) {
-    return [
-      ...state,
-      {
-        id: action.id,
-        title: action.title,
-        author: action.author,
-        completed: action.completed,
-        chapter: action.chapter,
-      },
-    ];
+  switch (action.type) {
+    case ADD_BOOK:
+      return [
+        ...state,
+        {
+          id: action.id,
+          title: action.title,
+          author: action.author,
+          completed: action.completed,
+          chapter: action.chapter,
+        },
+      ];
+    case REMOVE_BOOK:
+      return state.filter((book) => book.id !== action.id);
+    default:
+      return state;
   }
-  if (action.type === REMOVE_BOOK) {
-    return state.filter((book) => book.id !== action.id);
-  }
-  return state;
 }
