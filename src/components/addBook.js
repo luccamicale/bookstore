@@ -33,8 +33,8 @@ const AddBook = () => {
     <form className="form">
       <h3 className="add-title">ADD NEW BOOK</h3>
       <div className="inputs">
-        <input className="add-book" type="text" placeholder="Book Title" onClick={onChangeHandlerTitle} />
-        <input type="text" placeholder="add-author" onChange={onChangeHandlerAuthor} value={author} />
+        <input className="add-book" type="text" placeholder="Book Title" onChange={onChangeHandlerTitle} value={title} />
+        <input type="text" placeholder="Author" className="add-author" onChange={onChangeHandlerAuthor} value={author} />
         <input className="btn-add-book" type="button" value="ADD BOOK" onClick={onClickInput} />
       </div>
     </form>
