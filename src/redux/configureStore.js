@@ -1,10 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import bookReducer from './books/boooks-redux';
+import reducerBook from './books/boooks-redux';
 import categoriesRed from './categories/categories-redux';
 
 // function that create a combine reducers with the function about book and categories
 const rootReducer = combineReducers({
-  book: bookReducer,
+  book: reducerBook,
   categories: categoriesRed,
 });
 

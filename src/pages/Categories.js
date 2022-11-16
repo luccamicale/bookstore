@@ -8,7 +8,7 @@ const Categories = () => {
   const dispatch = useDispatch();
   const onClickStatus = (event) => {
     dispatch(checkStatus());
-    event.currentTargeg.classList.toggle('btn-disable');
+    event.currentTargeg.toggle('btn-disable');
   };
   return (
     <div className="status-container">
