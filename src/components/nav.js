@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import '../modules-css/nav.css';
+import logooo from '../img/logooo.png';
 
 const NavBar = () => (
   <header className="header">
@@ -17,6 +18,7 @@ const NavBar = () => (
             Categories
           </NavLink>
         </li>
+        <img src={logooo} alt="img-user" className="img-user" />
       </ul>
     </div>
   </header>
