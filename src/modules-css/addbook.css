@@ -37,3 +37,32 @@ input {
   border-radius: 4px;
   width: 200px;
 }
+
+@media screen and (max-width: 768px) {
+  .add-book {
+    width: 250px;
+    height: 30px;
+  }
+
+  .add-author {
+    width: 250px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
+  }
+
+  .item {
+    display: none;
+  }
+
+  .form {
+    border: 1px solid #a29b9b;
+    width: 91.3%;
+    padding: 1%;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 190px;
+    background-color: #f1f1f1;
+    border-radius: 25px;
+  }
+}
